@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            a:link,
+            a:visited {
+                background-color: #f44336;
+                color: white;
+                padding: 15px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+            }
+
+            a:hover,
+            a:active {
+                background-color: red;
+            }
+            a:link#first {
+                color: green;
+                background-color: transparent;
+                text-decoration: none;
+            }
+
+            a:visited#first {
+                color: pink;
+                background-color: transparent;
+                text-decoration: none;
+            }
+
+            a:hover#first {
+                color: red;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+
+            a:active#first {
+                color: yellow;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 id="C4">Chapter 4</h2>
+        <a href="https://www.w3schools.com/" target="_blank"
+            >Visit W3Schools!</a
+        >
+        <a
+            href="https://www.w3schools.com/html/"
+            title="Go to W3Schools HTML section"
+            >Visit our HTML Tutorial</a
+        >
+        <a href="#C4" id="first">Jump to Chapter 4</a>
+    </body>
+</html>
