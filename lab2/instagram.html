@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Instagram</title>
+        <style>
+            body {
+                background-color: black;
+                color: white;
+                margin: 60px;
+            }
+            #phone {
+                width: 30%;
+                margin-left: 20%;
+                display: inline-block;
+            }
+            #sign {
+                width: 22%;
+                display: inline-block;
+                border: 2px solid rgb(54, 54, 54);
+                vertical-align: top;
+                margin-top: 30px;
+                height: 380px;
+                text-align: center;
+            }
+            #logo {
+                width: 200px;
+                margin-top: 30px;
+                
+            }
+            .data {
+                background-color: rgb(23, 23, 23);
+                width: 220px;
+                color: white;
+                margin-top: 10px;
+                padding: 5px;
+                border: 2px solid rgb(61, 61, 61);
+                
+            }
+            .data-block {
+                margin-top: 10px;
+            }
+        
+            button {
+                width: 235px;
+                margin-top: 15px;
+                padding: 5px;
+                border: none;
+                border-radius: 10px;
+                background-color: rgb(0, 149, 246);
+                color: white;
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #ili {
+                margin-top: 15px;
+                color: rgb(130, 130, 130);
+                font-family: Arial, Helvetica, sans-serif;
+                width: 50px;
+                display: inline-block;
+            }
+            .line {
+                width: 25%;
+                border: 1px  rgb(29, 29, 29);
+                border-style: groove;
+                display: inline-block;
+            }
+            #facebook-icon {
+                width: 25px;
+                display: inline-block;
+                margin-top: 15px;
+                vertical-align: bottom;
+            }
+            .facebook-block a {
+                color: rgb(0, 149, 246);
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 15px;
+                text-decoration: none;
+            }
+            .facebook-block a:hover {
+                text-decoration: none;
+                color: white;
+            }
+            #password-forgotten {
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                text-decoration: none;
+            }
+            #no-acc {
+                width: 100%;
+                height: 50px;
+                border: 2px solid rgb(54, 54, 54);
+                margin-top: 40px;
+                font-size: 12px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #no-acc a{
+                text-decoration: none;
+                color: rgb(0, 149, 246);
+                
+            }
+            #download-app {
+                width: 100%;
+                height: 50px;
+                margin-top: 15px;
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #google_play_icon {
+                width: 140px;
+                margin-top: 20px;
+               
+            }
+            #microsoft_icon {
+                width: 120px;
+                height: 44px;
+                margin-top: 20px;
+            }
+            #links {
+                width: 84%;
+                margin-left: 150px;
+                margin-top: 50px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #links a {
+                text-decoration: none;
+                color: rgb(128, 128, 128);
+                font-size: 12px;
+            }
+            #links a:hover {
+                text-decoration: underline;
+            }
+            #links span {
+                padding: 5px;
+            }
+            #copyright {
+                text-align: center;
+                font-size: 12px;
+                color: rgb(128, 128, 128);
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <img id="phone" src="images/instagram_images/inst_phone.png">
+        <div id="sign">
+            <img id="logo" src="images/instagram_images/inst_logo.png">
+            <div class="data-block">
+                <input class="data" type="text" placeholder="Телефон, имя пользователя или эл. адрес">
+                <input class="data" type="password" placeholder="Пароль">
+            </div>
+            <button>Войти</button>
+            <div class="line"></div>
+            <p id="ili">или</p>
+            <div class="line"></div>
+            <div class="facebook-block">
+                <img src="images/instagram_images/facebook_icon.png" id="facebook-icon">
+                <a href="https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Foidc%2F%3Fapp_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignupviafb%252F%26response_type%3Dcode%26scope%3Dopenid%2Bemail%2Bprofile%2Blinking%26state%3DATAQQ_qRPMtnZyKgOMUuDKq32BBrLWL9J6Yvn4nja6T17_RY64hq7SOxLPscFoYLc5fHT38kGSBrTXuEljSpFQeRvvoG7-TxZPTSNXSdi2lGTO9gKzGsIPV312gJpSDJyF4kkddzeJfTdPqr8oyZBchWcBcT_JloRwWN_LcVw2AbWiNc_nfeivQGFwXU6dncpx19pBXJM5H1SqbKVDi2tr-zoJFClrzMU5vJUkesFfIqzQDezuB2qOMgn_4llnNpAMlX">Войти через facebook</a>
+            </div>
+            <p><a href="" id="password-forgotten">Забыли пароль?</a></p>
+            <div id="no-acc">
+                <p style="margin-top: 17px;">У вас еще нет аккаунта? <a href="">Зарегистрироваться</a></p>
+            </div>
+            <div id="download-app">
+                Установите приложение.
+                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3D8EC40521-FAB1-441E-8B1E-26CAFC7764B4%26utm_campaign%3DunifiedHome%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge&pli=1"><img id="google_play_icon" src="images/instagram_images/google_play_icon.png"></a>
+                <a target="_blank" href="https://www.microsoft.com/ru-tj/store/b/home"><img id="microsoft_icon" src="images/instagram_images/microsoft_icon.png"></a>
+            </div>
+        </div>
+        <div id="links">
+            <span><a href="">Meta</a></span>
+            <span><a href="">Информация</a></span>
+            <span><a href="">Блог</a></span>
+            <span><a href="">Вакансии</a></span>
+            <span><a href="">Помощь</a></span>
+            <span><a href="">API</a></span>
+            <span><a href="">Конфиденциальность</a></span>
+            <span><a href="">Условия</a></span>
+            <span><a href="">Места</a></span>
+            <span><a href="">Instagram Lite</a></span>
+            <span><a href="">Threads</a></span>
+            <span><a href="">Загрузка контактов и лица, не являющиеся пользователями</a></span>
+            <span><a href="">Meta Verified</a></span>
+        
+        </div>
+        <p id="copyright">© 2025 Instagram from Meta</p>
+    </body>
+</html>
