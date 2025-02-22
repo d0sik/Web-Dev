@@ -1,0 +1,3 @@
+<div *ngFor="let product of products">
+  <app-product-item [product]="product" (removed)="removeProduct($event)"></app-product-item>
+</div>
