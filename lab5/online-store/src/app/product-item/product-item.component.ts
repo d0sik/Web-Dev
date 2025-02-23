@@ -4,7 +4,7 @@ import { Product } from '../product';
   selector: 'app-product-item',
   imports: [],
   templateUrl: './product-item.component.html',
-  styleUrl: './product-item.component.scss'
+  styleUrl: './product-item.component.scss',
 })
 export class ProductItemComponent {
   @Input() product!: Product;
@@ -17,5 +17,10 @@ export class ProductItemComponent {
 
   removeProduct() {
     this.removed.emit(this.product.id);
+  }
+
+  share(link: string) {
+    const telegramUrl = `https://t.me/share/url?url=${encodeURIComponent(link)}`;
+    window.open(telegramUrl);
   }
 }
