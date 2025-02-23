@@ -20,9 +20,9 @@ export class AppComponent {
       name: 'Стул C06',
       category: 'Furniture',
       image:
-        'https://resources.cdn-kaspi.kz/img/m/p/pdd/p2b/3187771.jpg?format=preview-large',
+        'https://resources.cdn-kaspi.kz/img/m/p/p33/p2b/3187777.jpg?format=gallery-medium',
       descr:
-        'Благодаря сочетанию пластика с металлом и деревом изделие органично вписывается практически в любую среду, делая обстановку более естественной и «живой». Еще одно достоинство модели – удобная для обеденного стола высота',
+        'Благодаря сочетанию пластика с металлом и деревом изделие органично вписывается практически в любую среду.',
       rating: 5,
       likes: 0,
       link: 'https://kaspi.kz/shop/p/stul-c06-80x46x40-sm-belyi-100189414/?c=750000000',
@@ -225,7 +225,7 @@ export class AppComponent {
       image:
         'https://resources.cdn-kaspi.kz/img/m/p/h79/he9/64091924758558.jpg?format=gallery-medium',
       descr:
-        'Еще при жизни Леонардо да Винчи ходили легенды. Он был загадкой для современников и до сих пор остается одной из самых таинственных фигур в истории человечества.',
+        'Еще при жизни Леонардо да Винчи ходили легенды.',
       rating: 5,
       likes: 0,
       link: 'https://kaspi.kz/shop/p/da-vinchi-l-o-nauke-i-iskusstve-101517279/?c=750000000',

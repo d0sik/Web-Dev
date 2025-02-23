@@ -1,6 +1,6 @@
 <div class="product-card">
-  <img [src]="product.image" alt="{{ product.name }}" />
-  <a [href]="product.link" target="_blank">{{product.name}}</a>
+  <img [src]="product.image" [alt]="product.name" />
+  <a [href]="product.link" target="_blank">{{ product.name }}</a>
   <p>{{ product.descr }}</p>
   <p>⭐ {{ product.rating }}</p>
   <p>❤️ {{ product.likes }}</p>
